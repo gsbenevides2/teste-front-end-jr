@@ -1,0 +1,17 @@
+.title {
+  display: flex;
+  color: $primary-color;
+  justify-content: center;
+  gap: 34px;
+  align-items: center;
+  h3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+  hr {
+    flex: 1;
+    border: none;
+    height: 1px;
+    background-color: #dedede;
+  }
+}

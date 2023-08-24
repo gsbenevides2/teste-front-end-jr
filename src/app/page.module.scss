@@ -1,0 +1,41 @@
+.banner {
+  color: white;
+  font-weight: 600;
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+    url("/banner.jpeg"), lightgray 20%;
+  backdrop-filter: blur(40px);
+  background-position: center;
+  background-size: cover;
+  padding-top: 52px;
+  padding-left: 92px;
+  padding-bottom: 50px;
+  h1 {
+    font-size: 48px;
+    max-width: 800px;
+  }
+  h2 {
+    font-size: 36px;
+    margin-top: 16px;
+    margin-bottom: 35px;
+  }
+  .button {
+    width: 227px;
+    height: 60px;
+  }
+}
+
+.categories,
+.productCategories,
+.title {
+  max-width: 1280px;
+  margin: 0 auto;
+}
+.categories {
+  margin-top: 34px;
+}
+.title {
+  margin-top: 39px;
+}
+.productCategories {
+  margin-top: 5px;
+}

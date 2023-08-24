@@ -1,0 +1,23 @@
+.navigations ol {
+  display: flex;
+  justify-content: center;
+  gap: 91px;
+  align-items: center;
+  box-shadow: 0px 8px 16px 0px rgba(57, 48, 19, 0.12);
+  li button {
+    color: $gray-1;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 18px;
+    display: flex;
+    text-transform: uppercase;
+    align-items: center;
+    gap: 12px;
+    &.pink {
+      color: $primary-color;
+    }
+    .icon {
+      font-size: 20px;
+    }
+  }
+}

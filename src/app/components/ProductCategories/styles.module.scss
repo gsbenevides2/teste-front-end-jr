@@ -1,0 +1,26 @@
+.productCategories {
+  ol {
+    display: flex;
+    li {
+      flex: 1;
+      button {
+        min-width: 100%;
+        padding: 12px 0px;
+        border: 1px solid #bdbdbd;
+        display: flex;
+        flex-direction: column;
+        gap: 22px;
+        justify-content: center;
+        align-items: center;
+        color: #3b3b3b;
+        font-size: 16px;
+        text-transform: uppercase;
+        font-weight: 400;
+        &.selected {
+          color: $primary-color;
+          font-weight: 700;
+        }
+      }
+    }
+  }
+}

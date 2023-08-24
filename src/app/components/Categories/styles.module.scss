@@ -1,0 +1,31 @@
+.categories ol {
+  display: flex;
+  gap: 53px;
+  li button {
+    display: flex;
+    flex-direction: column;
+    gap: 22px;
+    justify-content: center;
+    align-items: center;
+
+    .icon {
+      padding: 34px;
+      border-radius: 10px;
+      background: #f4f4f4;
+      max-width: 128px;
+      max-height: 128px;
+      box-shadow: 0px 2px 9px 0px rgba(0, 0, 0, 0.22);
+      &.selected {
+        background: #fff;
+      }
+    }
+
+    span {
+      color: $preto;
+      font-size: 16px;
+      &.selected {
+        color: $primary-color;
+      }
+    }
+  }
+}
