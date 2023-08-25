@@ -110,7 +110,7 @@ export default function ProductModalProvider({
             <a className={lato.className}>Veja mais detalhes do produto &gt;</a>
             <div className={styles.qtdSelector}>
               <PiMinusBold
-                class={styles.minusOrPlus}
+                className={styles.minusOrPlus}
                 onClick={() => setQtd((qtd) => Math.max(qtd - 1, 1))}
               />
               <input
@@ -121,7 +121,7 @@ export default function ProductModalProvider({
                 className={montserrat.className}
               />
               <PiPlusBold
-                class={styles.minusOrPlus}
+                className={styles.minusOrPlus}
                 onClick={() => setQtd((qtd) => qtd + 1)}
               />
             </div>
