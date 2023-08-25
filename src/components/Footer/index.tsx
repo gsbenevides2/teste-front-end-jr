@@ -1,4 +1,5 @@
 import FirstArea from "./components/FirstArea";
+import NewsletterCard from "./components/NewsletterCard";
 import styles from "./styles.module.scss";
 
 export default function FooterComponent() {
@@ -6,6 +7,7 @@ export default function FooterComponent() {
     <footer className={styles.container}>
       <div className={styles.rowOne}>
         <FirstArea />
+        <NewsletterCard />
       </div>
     </footer>
   );

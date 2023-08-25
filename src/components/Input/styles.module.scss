@@ -1,0 +1,21 @@
+.input{
+        background-color: #f6f5f2;
+        padding: 10px 16px;
+        color: $gray-1;
+        display: flex;
+        font-size: 14px;
+        border-radius: 10px;
+        width: 100%;
+        input {
+          width: 100%;
+          margin-left: 8px;
+          &::placeholder {
+            color: $gray-1;
+          }
+        }
+        button .icon {
+          font-size: 28px;
+          color: $gray-1;
+        }
+      }
+      
