@@ -3,6 +3,7 @@ import "./globals.scss";
 import HeaderComponent from "@/components/Header";
 import type { Metadata } from "next";
 import { Poppins } from "next/font/google";
+import ProductModalProvider from "@/components/ProductModal";
 
 //import { Inter } from "next/font/google";
 
@@ -19,6 +20,11 @@ const poppins = Poppins({
 export const metadata: Metadata = {
   title: "VTEX Ecommerce",
   description: "Tudo para sua loja online",
+  category: "Ecommerce",
+  creator: "VTEX",
+  publisher: "VTEX",
+  keywords: ["VTEX", "Ecommerce", "Loja Online"],
+  themeColor: "#F71963",
 };
 
 export default function RootLayout({
@@ -30,7 +36,7 @@ export default function RootLayout({
     <html lang="pt-br" className={poppins.variable}>
       <body className={poppins.className}>
         <HeaderComponent />
-        {children}
+        <ProductModalProvider>{children}</ProductModalProvider>
         <FooterComponent />
       </body>
     </html>

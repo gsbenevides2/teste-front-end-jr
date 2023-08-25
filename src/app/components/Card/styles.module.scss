@@ -1,0 +1,43 @@
+.container {
+  background: linear-gradient(180deg, rgba(0, 0, 0, 0) 0%, #000 100%),
+    url("/parceiros.jpeg"), lightgray 20%;
+
+  background-repeat: no-repeat;
+  backdrop-filter: blur(40px);
+  background-position: left;
+  padding: 39px;
+  color: white;
+  width: 589.726px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  &.products {
+    height: 284px;
+    background-size: 160%;
+  }
+  &.partners {
+    height: 350px;
+    background-size: 148%;
+    background-position-x: 50%;
+    background-position-y: 28%;
+  }
+  border-radius: 10px;
+
+  h4 {
+    margin-top: 9px;
+    font-size: 40px;
+    font-weight: 700;
+  }
+  p {
+    font-size: 16px;
+    font-weight: 400;
+    max-width: 185px;
+    margin-top: 9px;
+    margin-bottom: 32px;
+  }
+  .button {
+    text-transform: uppercase;
+    width: 134.589px;
+    height: 48px;
+  }
+}

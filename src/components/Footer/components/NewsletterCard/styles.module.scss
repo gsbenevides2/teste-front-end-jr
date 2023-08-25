@@ -1,0 +1,38 @@
+.container {
+  border-radius: 10px;
+  background: #fff;
+  padding: 40px 29px;
+
+  width: 380px;
+  height: 260px;
+
+  color: $preto;
+  h5 {
+    font-size: 18px;
+    font-weight: 300;
+    line-height: 26px;
+    text-transform: uppercase;
+
+    b {
+      font-weight: 700;
+      font-size: 21px;
+    }
+  }
+
+  .description {
+    text-align: center;
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 19px;
+    margin-top: 15px;
+    margin-bottom: 31px;
+  }
+  .row {
+    display: flex;
+    gap: 9px;
+    .button {
+      width: 62px;
+      height: 45px;
+    }
+  }
+}

@@ -1,21 +1,14 @@
-.input{
-        background-color: #f6f5f2;
-        padding: 10px 16px;
-        color: $gray-1;
-        display: flex;
-        font-size: 14px;
-        border-radius: 10px;
-        width: 100%;
-        input {
-          width: 100%;
-          margin-left: 8px;
-          &::placeholder {
-            color: $gray-1;
-          }
-        }
-        button .icon {
-          font-size: 28px;
-          color: $gray-1;
-        }
-      }
-      
+.input {
+  border-radius: 4px;
+  border: 1px solid #2a2a2a;
+  background: #fff;
+  padding: 13px 25px;
+  display: flex;
+  font-size: 12px;
+  font-weight: 400;
+  width: 100%;
+  &::placeholder {
+    color: #c0c0c0;
+    text-transform: uppercase;
+  }
+}
